@@ -1,0 +1,40 @@
+# ── Credentials & secrets ─────────────────────
+credentials.json
+.env
+*.key
+*.pem
+
+# ── Data outputs (generated at runtime) ───────
+data/
+candidates/
+logs/
+
+# ── Brain platform data (proprietary) ─────────
+*.csv
+
+# ── Python ────────────────────────────────────
+__pycache__/
+*.py[cod]
+*$py.class
+*.egg-info/
+dist/
+build/
+venv/
+.venv/
+*.egg
+
+# ── OS ────────────────────────────────────────
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# ── IDE ───────────────────────────────────────
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+
+# ── Misc ──────────────────────────────────────
+*chromedriver*
+draft/
